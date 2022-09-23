@@ -1,0 +1,91 @@
+﻿Business Id,Account name,Account type,Parent account id,Description,Balance
+1,Bookkeeper,Expenses,12,--,--
+1,Lawyer,Expenses,12,--,--
+1,Maintenance and Repair,Expenses,--,--,--
+1,Building Repairs,Expenses,72,--,--
+1,Computer Repairs,Expenses,72,--,--
+1,Advertising,Expenses,--,--,--
+1,Bank Charges,Expenses,--,--,--
+1,Commissions & fees,Expenses,--,--,--
+1,Dues & Subscriptions,Expenses,--,--,--
+1,Insurance,Expenses,--,--,--
+1,Legal & Professional Fees,Expenses,--,--,--
+1,Meals and Entertainment,Expenses,--,--,--
+1,Miscellaneous,Other Expense,--,--,--
+1,Office Expenses,Expenses,--,--,--
+1,Promotional,Expenses,--,--,--
+1,Rent or Lease,Expenses,--,--,--
+1,Repair & Maintenance (deleted),Expenses,--,--,--
+1,Stationery & Printing,Expenses,--,--,--
+1,Supplies,Expenses,--,--,--
+1,Taxes & Licenses,Expenses,--,--,--
+1,Travel,Expenses,--,--,--
+1,Travel Meals,Expenses,--,--,--
+1,Utilities,Expenses,--,--,--
+1,Interest Earned,Other Income,--,--,--
+1,Other Portfolio Income,Other Income,--,--,--
+1,Penalties & Settlements,Other Expense,--,--,--
+1,Disposal Fees,Expenses,--,--,--
+1,Equipment Rental,Expenses,--,--,--
+1,Uncategorized Income,Income,--,--,--
+1,Uncategorized Expense,Expenses,--,--,--
+1,Uncategorized Asset,Other Current Assets,--,--,--
+1,Accounts Payable (A/P),Accounts payable (A/P),--,--,"-$1,602.67"
+1,Opening Balance Equity,Equity,--,--,"$9,337.50"
+1,Checking,Bank,--,--,"$1,201.00"
+1,Savings,Bank,--,--,$800.00
+1,Truck,Fixed Assets,--,--,--
+1,Original Cost,Fixed Assets,37,--,"$13,495.00"
+1,Depreciation,Fixed Assets,37,--,--
+1,Depreciation,Other Expense,--,--,--
+1,Mastercard,Credit Card,--,--,-$157.72
+1,Visa,Credit Card,--,--,--
+1,Loan Payable,Other Current Liabilities,--,--,"-$4,000.00"
+1,Notes Payable,Long Term Liabilities,--,--,"-$25,000.00"
+1,Landscaping Services,Income,--,--,--
+1,Job Materials,Income,45,--,--
+1,Decks and Patios,Income,46,--,--
+1,Fountains and Garden Lighting,Income,46,--,--
+1,Plants and Soil,Income,46,--,--
+1,Sprinklers and Drip Systems,Income,46,--,--
+1,Labor,Income,45,--,--
+1,Installation,Income,51,--,--
+1,Maintenance and Repair,Income,51,--,--
+1,Pest Control Services,Income,--,--,--
+1,Automobile,Expenses,--,--,--
+1,Fuel,Expenses,55,--,--
+1,Workers Compensation,Expenses,11,--,--
+1,Job Expenses,Expenses,--,--,--
+1,Cost of Labor,Expenses,58,--,--
+1,Installation,Expenses,59,--,--
+1,Maintenance and Repairs,Expenses,59,--,--
+1,Equipment Repairs,Expenses,72,--,--
+1,Gas and Electric,Expenses,24,--,--
+1,Telephone,Expenses,24,--,--
+1,Purchases,Expenses,--,--,--
+1,Sales of Product Income,Income,--,--,--
+1,Cost of Goods Sold,Cost of Goods Sold,--,--,--
+1,Inventory Asset,Other Current Assets,--,--,$596.25
+1,Design income,Income,--,--,--
+1,Other Income,Income,--,--,--
+1,Accounts Receivable (A/R),Accounts receivable (A/R),--,--,"$5,281.52"
+1,Billable Expense Income,Income,--,--,--
+1,Discounts given,Income,--,--,--
+1,Unapplied Cash Payment Income,Income,--,--,--
+1,Unapplied Cash Bill Payment Expense,Expenses,--,--,--
+1,Arizona Dept. of Revenue Payable,Other Current Liabilities,--,--,$0.00
+1,Board of Equalization Payable,Other Current Liabilities,--,--,-$370.94
+1,Services,Income,--,--,--
+1,Retained Earnings,Equity,--,--,--
+1,Prepaid Expenses,Other Current Assets,--,--,--
+1,Undeposited Funds,Other Current Assets,--,--,"$2,062.52"
+1,Equipment Rental,Expenses,58,--,--
+1,Fees Billed,Income,--,--,--
+1,Refunds-Allowances,Income,--,--,--
+1,Job Materials,Expenses,58,--,--
+1,Decks and Patios,Expenses,63,--,--
+1,Fountain and Garden Lighting,Expenses,63,--,--
+1,Plants and Soil,Expenses,63,--,--
+1,Sprinklers and Drip Systems,Expenses,63,--,--
+1,Permits,Expenses,58,--,--
+1,Accounting,Expenses,12,--,--

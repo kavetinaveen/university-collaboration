@@ -1,0 +1,124 @@
+﻿Query Pattern,Intent,Attribute,Aggregation,Paid Status
+Who are my outstanding debtors?,Invoice,None,List,FALSE
+What are the names of my outstanding debtors?,Invoice,None,List,FALSE
+Who are my outstanding creditors?,Invoice,None,List,FALSE
+What are the names of my outstanding creditors?,Invoice,None,List,FALSE
+What was the [aggregation_entity] invoice amount for [customer_name]?,Sales,Customer,,None
+What was the most recent invoice for [customer_name]?,Invoice,Customer,Max,None
+What was the [aggregation_entity] invoice amount for [product_name]?,Sales,Product,,None
+What was the most recent invoice for [product_name]?,Invoice,Product,Max,None
+What is my [aggregation_entity] revenue for [customer_name] in the [date_filter]?,Sales,Customer,,None
+"In the [date_filter], what has been my [aggregation_entity] revenue from [customer_name]?",Sales,Customer,,None
+What is my [aggregation_entity] sales for [customer_name] in the [date_filter]?,Sales,Customer,,None
+What is my [aggregation_entity] revenue for [customer_name] in the [date_filter]?,Sales,Customer,,None
+"In the [date_filter], what has been my [aggregation_entity] sales from [customer_name]?",Sales,Customer,,None
+Show number of transactions with [customer_name],Invoice,Customer,Count,None
+Display the total number of transactions with [customer_name],Invoice,Customer,Count,None
+Show how many transactions you've had with [customer_name],Invoice,Customer,Count,None
+Show all transactions with [customer_name],Invoice,Customer,Count,None
+Display all transactions involving [customer_name],Invoice,Customer,Count,None
+Show all of [customer_name]'s transactions,Invoice,Customer,Count,None
+Display all of [customer_name]'s transactions,Invoice,Customer,Count,None
+What is my [aggregation_entity] invoice from [vendor_name]?,Bill,Vendor,,None
+What was the [aggregation_entity] invoice I received from [vendor_name]?,Bill,Vendor,,None
+What is my [aggregation_entity] bill for [vendor_name]?,Bill,Vendor,,None
+What was the [aggregation_entity] bill I received from [vendor_name]?,Bill,Vendor,,None
+How many [product_name] did I sell [date_filter]?,Invoice,Product,Count,None
+"[date_filter], how many [product_name] did I sell?",Invoice,Product,Count,None
+"In the [date_filter], how many [product_name] did I sell?",Invoice,Product,Count,None
+What are my AR [date_filter]?,Account Receivables,None,Total,None
+"[date_filter], what are my AR?",Account Receivables,None,Total,None
+What are my account receivable [date_filter]?,Account Receivables,None,Total,None
+"[date_filter], what are my account receivable?",Account Receivables,None,Total,None
+What are my AP [date_filter]?,Account Payable,None,Total,None
+"[date_filter], what are my AP?",Account Payable,None,Total,None
+What are my account payable [date_filter]?,Account Payable,None,Total,None
+"[date_filter], what are my account payable?",Account Payable,None,Total,None
+What are my [aggregation_entity] sales by [groupby_entity]?,Sales,None,,None
+What are my expenses for the [date_filter]?,Expense,None,Total,None
+What were my expenses in the [date_filter]?,Expense,None,Total,None
+How much did I spend [date_filter]?,Expense,None,Total,None
+What were my outgoings during the [date_filter]?,Expense,None,Total,None
+How much has [customer_name] paid us [date_filter]?,Sales,Customer,Total,TRUE
+"[date_filter], how much has [customer_name] paid us?",Sales,Customer,Total,TRUE
+What has [customer_name] paid us so far [date_filter]?,Sales,Customer,Total,TRUE
+How much money does [customer_name] still owe?,Sales,Customer,Total,FALSE
+What is the balance due from [customer_name]?,Sales,Customer,Total,FALSE
+What is the balance owed by [customer_name]?,Sales,Customer,Total,FALSE
+How much credit does [customer_name] have [date_filter]?,Sales,Customer,Total,FALSE
+How much has [salesperson_name] collected in [product_name] [date_filter]?,Sales,Product,Total,None
+How much in [product_name] did [salesperson_name] collect [date_filter]?,Sales,Product,Total,None
+When was the last time we billed for [product_name],Invoice,Product,Max,None
+When was the first time we billed for [product_name],Invoice,Product,Min,None
+How many [customer_name] invoices are still outstanding?,Invoice,Customer,Count,FALSE
+How many [customer_name] invoices haven't been paid yet?,Invoice,Customer,Count,FALSE
+How many [customer_name] invoices have yet to be paid?,Invoice,Customer,Count,FALSE
+What was our Net Income as of [date_filter]?,Sales,None,Total,None
+How much money did we make [date_filter]?,Sales,None,Total,None
+"As of [date_filter], what was our net income?",Sales,None,Total,None
+How much money did we make [date_filter]?,Sales,None,Total,None
+What was our Net Expenses?,Expense,None,Total,None
+How much money did we spend on net expenses?,Expense,None,Total,None
+What was the total of our net expenses?,Expense,None,Total,None
+What was our biggest expense [date_filter]?,Expense,None,Max,None
+"[date_filter], what was our largest expense?",Expense,None,Max,None
+What was our greatest expense [date_filter]?,Expense,None,Max,None
+Who has the most money outstanding?,Invoice,None,Max,FALSE
+How much credit does [customer_name] have [date_filter],Sales,None,Total,FALSE
+What is [customer_name] credit for [date_filter]?,Sales,None,Total,FALSE
+How many invoices have we sent to [customer_name]?,Invoice,Customer,Count,None
+What's the total number of invoices we've issued to [customer_name]?,Invoice,Customer,Count,None
+[customer_name] has received how many invoices?,Invoice,Customer,Count,None
+What's the total number of invoices we've issued [customer_name]?,Invoice,Customer,Count,None
+How many invoices are still oustanding for [customer_name] as of [date_filter]?,Invoice,Customer,Count,FALSE
+"As of [date_filter], how many invoices for [customer_name] were still outstanding?",Invoice,Customer,Count,FALSE
+"As of [date_filter], how many invoices for [customer_name] were still unpaid?",Invoice,Customer,Count,FALSE
+"As of [date_filter], how many invoices for [customer_name] remained unpaid?",Invoice,Customer,Count,FALSE
+When did [customer_name] last pay?,Invoice,Customer,Max,None
+When was the last time [customer_name] paid you?,Invoice,Customer,Max,TRUE
+When was [customer_name] last payment?,Invoice,Customer,Max,TRUE
+How many invoices are past due since [date_filter]?,Invoice,None,Count,FALSE
+"Since [date_filter], how many invoices have been past due?",Invoice,None,Count,FALSE
+"Since [date_filter], how many invoices have been late?",Invoice,None,Count,FALSE
+"Since [date_filter], how many invoices have gone unpaid?",Invoice,None,Count,FALSE
+How much money have we paid to [vendor_name] [date_filter]?,Expense,Vendor,Total,TRUE
+How much did we pay [vendor_name] the [date_filter]?,Expense,Vendor,Total,TRUE
+"[date_filter], how much did we pay [vendor_name]?",Expense,Vendor,Total,TRUE
+How many sales receipts did [salesperson_name] generate [date_filter]?,Invoice,Salesperson,Count,None
+[salesperson_name] generated how many sales receipts [date_filter]?,Invoice,Salesperson,Count,None
+"[date_filter], [salesperson_name] generated how many sales receipts?",Invoice,Salesperson,Count,None
+"[date_filter], how many sales receipts did [salesperson_name] generate?",Invoice,Salesperson,Count,None
+How many invoices did [salesperson_name] generate [date_filter]?,Invoice,Salesperson,Count,None
+"[date_filter], how many invoices did [salesperson_name] generate?",Invoice,Salesperson,Count,None
+[salesperson_name] generated how many invoices [date_filter]?,Invoice,Salesperson,Count,None
+How many invoices were paid [date_filter]?,Invoice,None,Count,TRUE
+"[date_filter], how many invoices were paid?",Invoice,None,Count,TRUE
+"[date_filter], how many invoices have been paid?",Invoice,None,Count,TRUE
+How much have we been spending on [account_name]?,Expense,Account,Total,None
+How much did we spend on [account_name] [date_filter]?,Expense,Account,Total,None
+How much has [customer_name] been paying us each month?,Sales,Customer,Total,None
+What's the average contract size for the Sales team?,Sales,None,Average,None
+How much revenue came through [customer_name] last month?,Sales,Customer,Total,None
+Whats our monthly spend on [vendor_name]?,Expense,Vendor,Total,None
+What were our total payroll expenses [date_filter]?,Expense,None,Total,None
+What was our total income from [customer_name] in [date_filter]?,Sales,Customer,Total,None
+What was our total spend for [vendor_name] in the [date_filter]?,Expense,Vendor,Total,None
+How many Adobe subscriptions do we have?,Expense,None,Count,None
+Did we receive payment from Stripe partnership last year?,Sales,None,Count,None
+How much did we spend on [vendor_name] in [date_filter]?,Expense,Vendor,Total,TRUE
+What was the first invoice for [customer_name]?,Invoice,Customer,Min,None
+What was the first invoice for [product_name]?,Invoice,Product,Min,None
+What was our smallest expense [date_filter]?,Expense,None,Min,None
+"[date_filter], what was our smallest expense?",Expense,None,Min,None
+What was our smallest expense [date_filter]?,Expense,None,Min,None
+Who has the lowest money outstanding?,Invoice,None,Min,None
+When did [customer_name] first pay?,Invoice,Customer,Min,None
+When was the first time [customer_name] paid you?,Invoice,Customer,Min,TRUE
+When was [customer_name] first payment?,Invoice,Customer,Min,TRUE
+How much we received from [account_name]?,Invoice,Account,Total,None
+How much we received from [account_name] in [date_filter]?,Invoice,Account,Total,None
+What was the [aggregation_entity] invoice amount for [account_name]?,Sales,Account,,None
+What was the [aggregation_entity] invoice amount for [account_name] in [date_filter]?,Sales,Account,,None
+When was the first time we billed for [account_name]?,Expense,Account,Min,None
+Number of invoices created for [account_name]?,Invoice,Account,Count,None
+Number of invoices created for [account_name] in [date_filter]?,Invoice,Account,Count,None

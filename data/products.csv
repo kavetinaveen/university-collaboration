@@ -1,0 +1,19 @@
+﻿Business Id,Product/Service,Product/Service type,Sales price,Purchase price,Quantity on hand
+1,Rock Fountain,Inventory,$275.00,$125.00,2
+1,Pump,Inventory,$15.00,$10.00,25
+1,Sprinkler Heads,Inventory,$2.00,$0.75,25
+1,Sprinkler Pipes,Inventory,$4.00,$2.50,31
+1,Hours,Service,--,--,--
+1,Services,Service,--,--,--
+1,Concrete,Service,$0.00,--,--
+1,Design,Service,$75.00,--,--
+1,Gardening,Service,$0.00,--,--
+1,Installation,Service,$50.00,--,--
+1,Lighting,Service,$0.00,--,--
+1,Maintenance & Repair,Service,$0.00,--,--
+1,Pest Control,Service,$35.00,--,--
+1,Refunds & Allowances,Service,--,--,--
+1,Rocks,Service,--,--,--
+1,Sod,Service,--,--,--
+1,Soil,Service,$10.00,$6.50,--
+1,Trimming,Service,$35.00,--,--
